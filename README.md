@@ -6,7 +6,7 @@ This  `docker-compose` file allows you to spin up
 -  Jupyter data science notebook, with `Julia`, `R`, and `python 2/3` on port `8888`  
 -  Neo4j database running on port `7474` with authentication disabled and APOC and postgresql/Redshift JDBC plugins
 
-In addition to the tools above, the images map a few directories to the host computer.  
+In addition to the tools above, the images map a few directories to the host computer in the form of (host path:container).
 
 To run this setup, simply
 
